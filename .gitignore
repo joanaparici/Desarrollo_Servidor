@@ -1,0 +1,49 @@
+# Ignora todos los archivos que no deberían subirse a Git
+
+# Archivos binarios grandes
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Archivos de configuración sensibles
+*.env
+
+# Dependencias
+/node_modules/
+/vendor/
+
+# Archivos de compilación y temporales
+*.o
+*.class
+*~
+*.log
+*.tmp
+*.temp
+
+# Directorios de salida de compilación
+/bin/
+/build/
+/dist/
+/out/
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE y editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# Otros archivos y carpetas que deberían ser ignorados
+*.bak
+*.swp
+*.swo
+
